@@ -1,10 +1,3 @@
-# AWS ASG with ALB Terraform module 
-
-## Run terraform apply from "module" folder
-
-## Usage
-
-```hcl
 module "ASG" {
     source             = "../"
     desired_capacity   = 2
@@ -22,4 +15,3 @@ module "ASG" {
                     
     }
 }
-```
